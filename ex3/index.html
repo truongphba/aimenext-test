@@ -9,12 +9,15 @@
 <div class="container">
     <div class="calculator">
         <div class="display-screen">
-            <div id="display"></div>
+            <div class="logo">
+                <img src="logo-aime.png">
+            </div>
+            <div id="display">0</div>
         </div>
         <div class="buttons">
             <table>
                 <tr>
-                    <td><button class="btn-operator" id="clear">C</button></td>
+                    <td><button id="clear">C</button></td>
                     <td><button class="btn-operator" id="/">&divide;</button></td>
                     <td><button class="btn-operator" id="*">&times;</button></td>
                     <td><button class="btn-operator" id="backspace">&#9003;</button></td>
@@ -38,9 +41,8 @@
                     <td rowspan="2"><button class="btn-operator" id="equal">=</button></td>
                 </tr>
                 <tr>
-                    <td><button class="btn-operator" id="(">(</button></td>
-                    <td><button class="btn-number" id="0">0</button></td>
-                    <td><button class="btn-operator" id=")">)</button></td>
+                    <td colspan="2"><button class="btn-number zero" id="0">0</button></td>
+                    <td><button class="btn-operator" id=".">.</button></td>
                 </tr>
 
             </table>
